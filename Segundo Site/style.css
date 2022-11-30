@@ -7,19 +7,13 @@
 }
 
 #joana {
-    background-image: url(imagens/background001.jpg);
-    background-repeat: no-repeat;
-    background-attachment:fixed ;
+    background: url(imagens/background001.jpg) no-repeat fixed center center;
     background-size: cover;
-    background-position: center center;
 }
 
 #livro {
-    background-image: url(imagens/background002.jpg);
-    background-repeat: no-repeat;
-    background-attachment:fixed ;
+    background: url(imagens/background002.jpg) no-repeat fixed center center;
     background-size: cover;
-    background-position: center center;
 }
 
 header {
