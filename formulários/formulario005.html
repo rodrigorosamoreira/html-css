@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario005</title>
+     <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;      
+        }   
+
+        h1 {
+            text-align: center;
+        }
+
+        legend {
+            font-size: 1.3em;
+            font-weight: bolder;
+            background-color: aquamarine;
+            padding: 5px;
+        }
+
+        input{
+            margin: 5px;
+        }
+
+        fieldset {
+            padding: 20px;
+            margin-top: 20px;
+        }
+     </style>   
+
+
+
+
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get"    autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" value="M">
+            <label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem" value="F">
+            <label for="isxgfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <label for="iesfut"><input type="checkbox" name="esportefutebol" id="iesfut">Futebol <br></label>
+            <label for="iesbas"><input type="checkbox" name="esportebasquete" id="iesbas">Basquete <br></label>
+            <label for="iesvol"><input type="checkbox" name="esportevolei" id="iesvol">Vôlei <br></label>
+            <label for="ieslut"><input type="checkbox" name="esporteluta" id="ieslut">Luta <br></label>
+            <label for="iesten"><input type="checkbox" name="esportetenis" id="iesten">Tênis <br></label>
+        </fieldset>
+
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+
+    
+</body>
+</html>
