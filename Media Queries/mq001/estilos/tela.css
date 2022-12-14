@@ -1,6 +1,6 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
-/* estilo para telas */
+/* Estilo para telas */
 
 * { 
     margin: 0px;
@@ -12,3 +12,30 @@ html {
     font-size: 1em;
 }
 
+header {
+    background-color: darkgray;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+}
+
+menu li {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px; 
+}
+
+article {
+    width: 700px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+}
