@@ -52,6 +52,7 @@ li:hover {
 
 body {
     background-color: darkgray;
+    width: 100vw;
 }
 
 main {
