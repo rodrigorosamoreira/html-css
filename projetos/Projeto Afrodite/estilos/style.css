@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Thasadith:wght@700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+    text-align: left;
+}
+
+div {
+    background: url(../imagens/background2.jpg) no-repeat center center;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+}
+
+header {
+    background-color: #FF00F5;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Thasadith';
+    font-size: 5em;
+    letter-spacing: 15px;
+    color: white;
+    padding-left: 10px;
+}
+
+header > span#burguer {
+    background-color: #94028f;
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+header > span#burguer:hover {
+    background-color: #be02b8;
+    color: black ;
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+    text-align: center;
+    
+}
+
+
+section#subitens {
+    display: none;
+    cursor: pointer;
+    background-color: white ;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+section#subitens  a {
+    color: black;
+}
+
+#mostrar:hover #subitens {
+    display: block; 
+    
+}
+
+#subitens a:hover {
+    background-color: #FF00F5;   
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+ol {
+    display: inline-block;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#itens {
+    background-color: #FF00F5;
+    margin: 2px;
+    font-size: 1.3em;
+}
+
+footer {
+    background-color: darkgrey;
+    padding: 5px;
+    text-align: center;}
